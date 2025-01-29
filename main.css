@@ -58,8 +58,13 @@ body, html {
     margin-top:10px;
 }
 
+.encabezadobody{
+    text-align: center;
+}
+
 .texto{
-    color:black;
+    background-color: lightslategray;
+    color:white;
     display:flex;
     margin-left: 100px; 
 }
