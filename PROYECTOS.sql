@@ -50,6 +50,16 @@ create table gerente_proyecto (
     foreign key (id_empresa) references empresa(id_empresa)
 );
 
+create table reclutamiento (
+    id_reclutamiento number(6) generated always as identity primary key,
+    id_reclutador number(6) not null,
+    id_desarrollador number(6) not null,
+    fecha_reclutamiento date default sysdate,
+    foreign key (id_reclutador) references reclutador(id_usuario),
+    foreign key (id_desarrollador) references desarrollador(id_usuario)
+);
+
+
 create table comentario(
     id_comentario number(10) primary key,
     id_usuario number(6),
