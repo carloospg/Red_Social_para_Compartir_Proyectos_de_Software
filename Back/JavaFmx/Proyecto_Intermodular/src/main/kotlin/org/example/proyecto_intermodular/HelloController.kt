@@ -7,6 +7,7 @@ import javafx.scene.Parent
 import javafx.scene.Scene
 import javafx.scene.control.Label
 import javafx.stage.Stage
+import org.example.proyecto_intermodular.Presentacion.*
 
 class HelloController {
     @FXML
@@ -29,4 +30,19 @@ class HelloController {
             e.printStackTrace()
         }
     }
+
+    @FXML
+    fun onBtUsuarios(event: ActionEvent){
+        try {
+            val loader = FXMLLoader(UsuariosController::class.java.getResource("/com/example/Proyecto_Intermodular/usuarios-view.fxml"))
+            val root: Parent = loader.load()
+            val stage = Stage()
+            stage.scene = Scene(root)
+            stage.title = "Pantalla 3"
+            stage.show()
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+    }
+
 }

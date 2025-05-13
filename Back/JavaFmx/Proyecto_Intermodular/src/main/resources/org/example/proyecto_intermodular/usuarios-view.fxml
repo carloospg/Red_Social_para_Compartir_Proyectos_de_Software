@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.proyecto_intermodular.Presentacion.UsuariosController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <children>
+        <!-- Título -->
+        <Label layoutX="20.0" layoutY="20.0" text="Titulo Ejemplo">
+            <font>
+                <Font size="24.0"/>
+            </font>
+        </Label>
+
+        <!-- ComboBox para seleccionar usuario -->
+        <ComboBox fx:id="comboUsuario" layoutX="20.0" layoutY="60.0" prefWidth="300.0"/>
+
+        <!-- Etiquetas y campos -->
+        <Label layoutX="20.0" layoutY="110.0" text="ID: "/>
+        <TextField fx:id="txtIdUsuario" layoutX="100.0" layoutY="105.0" prefWidth="150.0" editable="false"/>
+
+        <Label layoutX="20.0" layoutY="150.0" text="Tipo: "/>
+        <TextField fx:id="txtTipo" layoutX="100.0" layoutY="145.0" prefWidth="300.0"/>
+
+        <Label layoutX="20.0" layoutY="140.0" text="Correo: "/>
+        <TextField fx:id="txtCorreo" layoutX="100.0" layoutY="185.0" prefWidth="300.0"/>
+
+        <Label layoutX="20.0" layoutY="150.0" text="Telefono: "/>
+        <TextField fx:id="txtTlf" layoutX="100.0" layoutY="225.0" prefWidth="300.0"/>
+
+        <Label layoutX="20.0" layoutY="150.0" text="Contrasenia: "/>
+        <TextField fx:id="txtContrasenia" layoutX="100.0" layoutY="265.0" prefWidth="300.0"/>
+
+        <Label layoutX="20.0" layoutY="150.0" text="Tipo: "/>
+        <TextField fx:id="txtFechaAlta" layoutX="100.0" layoutY="285.0" prefWidth="300.0"/>
+
+        <!-- Botones de acción -->
+        <Button fx:id="btnAnadir" layoutX="20.0" layoutY="320.0" text="Añadir" prefWidth="100.0" onAction="#anadirUsuario"/>
+        <Button fx:id="btnModificar" layoutX="130.0" layoutY="320.0" text="Modificar" prefWidth="100.0" onAction="#modificarUsuario"/>
+        <Button fx:id="btnBorrar" layoutX="240.0" layoutY="320.0" text="Borrar" prefWidth="100.0" onAction="#borrarUsuario"/>
+
+        <Button fx:id="btnSalir" layoutX="500.0" layoutY="360.0" text="Salir" prefWidth="70.0" onAction="#cerrarVentana"/>
+
+    </children>
+
+
+</AnchorPane>
