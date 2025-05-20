@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 
 <AnchorPane prefHeight="163.0" prefWidth="251.0" style="-fx-background-color: rgb(0,0,50,0.3);" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.proyecto_intermodular.HelloController">
-   
+
 
    <MenuBar layoutX="78.0" layoutY="68.0">
       <menus>
