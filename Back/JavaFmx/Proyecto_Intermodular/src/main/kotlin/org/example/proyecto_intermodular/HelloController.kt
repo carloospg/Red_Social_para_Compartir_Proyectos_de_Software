@@ -5,7 +5,10 @@ import javafx.fxml.FXML
 import javafx.fxml.FXMLLoader
 import javafx.scene.Parent
 import javafx.scene.Scene
+import javafx.scene.control.Alert
+import javafx.scene.control.ButtonType
 import javafx.scene.control.Label
+import javafx.stage.Modality
 import javafx.stage.Stage
 import org.example.proyecto_intermodular.Presentacion.*
 
@@ -15,16 +18,17 @@ class HelloController {
 
 
     @FXML
-    fun onBtProyectos(event: ActionEvent) {
+    fun onBtReclutador(event: ActionEvent) {
+
         try {
             //val fxmlLoader = FXMLLoader(HelloApplication::class.java.getResource("hello-view.fxml"))
-            val loader = FXMLLoader(Pantalla2Controller::class.java.getResource("/com/example/Proyecto_Intermodular/pantalla2.fxml"))
+            val loader = FXMLLoader(Pantalla2Controller::class.java.getResource("/org/example/proyecto_intermodular/pantalla2.fxml"))
 
             //val loader = FXMLLoader(javaClass.getResource("/com/example/debbddajavafx/categorias-view.fxml"))
-            val root: Parent = loader.load()
+            val root: Parent = loader.load() //El root es el padre es la ventana principal
             val stage = Stage()
             stage.scene = Scene(root)
-            stage.title = "Proyectos"
+            stage.title = "Gestión de Categorías"
             stage.show()
         } catch (e: Exception) {
             e.printStackTrace()

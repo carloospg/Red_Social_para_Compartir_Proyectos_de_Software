@@ -3,10 +3,11 @@ package org.example.proyecto_intermodular.AccesoDatos
 import org.example.proyecto_intermodular.Utilidades.ConexionDB
 import org.example.proyecto_intermodular.AccesoDatos.UsuarioDAO
 import org.example.proyecto_intermodular.Negocio.Usuario
+import org.example.proyecto_intermodular.Utilidades.ConexionBD
 import org.example.proyecto_intermodular.Utilidades.SQL_Carlos
 
 class UsuarioDAOImpl: UsuarioDAO {
-    private val conexion = ConexionDB()
+    private val conexion = ConexionBD()
 
     override fun getUsuarioByID(id_usuario: Int): Usuario? {
         conexion.conectar()
