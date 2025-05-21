@@ -24,5 +24,9 @@ class Reclutador :Usuario{
         this.reclutados = listaReclutados
     }
 
+    override fun toString(): String {
+        return "Reclutador $id_usuario, $correo"
+    }
+
 
 }

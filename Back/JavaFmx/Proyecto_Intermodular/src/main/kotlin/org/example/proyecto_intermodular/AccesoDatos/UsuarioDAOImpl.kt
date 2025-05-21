@@ -37,8 +37,8 @@ class UsuarioDAOImpl: UsuarioDAO {
             val usuario = Usuario(
                 rs.getInt("id_usuario"),
                 rs.getString("tipo"),
-                rs.getString("correo"),
-                rs.getInt("tlf"),
+                rs.getString("correo_electronico"),
+                rs.getInt("telefono"),
                 rs.getString("contrasenia"),
                 rs.getInt("fecha_alta")
             )

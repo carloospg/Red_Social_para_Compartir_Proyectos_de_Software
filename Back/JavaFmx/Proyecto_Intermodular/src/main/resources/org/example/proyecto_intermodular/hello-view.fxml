@@ -2,16 +2,23 @@
 
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="163.0" prefWidth="251.0" style="-fx-background-color: rgb(0,0,50,0.3);" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.proyecto_intermodular.HelloController">
+<AnchorPane onDragExited="#onSalir" prefHeight="219.0" prefWidth="295.0" style="-fx-background-color: rgb(0,30,40,0.3);" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.proyecto_intermodular.HelloController">
 
 
-   <MenuBar layoutX="78.0" layoutY="68.0">
+   <MenuBar layoutX="69.0" layoutY="83.0">
       <menus>
-         <Menu text="Seleccione la opciónn">
+         <Menu text="Seleccione la operación">
             <MenuItem fx:id="menuItemUsuario" onAction="#onBtUsuarios" text="Usuarios" />
-            <MenuItem fx:id="menuItemReclutador" onAction="#onBtReclutador" text="Reclutadores" />
+            <MenuItem fx:id="menuItemReclutador" onAction="#onBtReclutador" text="Visualizar reclutamientos de la app" />
          </Menu>
       </menus>
    </MenuBar>
+   <Label layoutX="67.0" layoutY="23.0" text="Bienvenido a Códice" textFill="WHITE">
+      <font>
+         <Font name="Yu Gothic Bold" size="14.0" />
+      </font>
+   </Label>
+   <Button layoutX="122.0" layoutY="172.0" mnemonicParsing="false" onAction="#onSalir" onDragExited="#onSalir" text="Salir" />
 </AnchorPane>

@@ -27,5 +27,9 @@ class Desarrollador:Usuario {
         fecha_alta
     )
 
+    override fun toString(): String {
+        return "Desarrollador $id_usuario, $correo, especialidad=$especialidad, github=$github"
+    }
+
 
 }

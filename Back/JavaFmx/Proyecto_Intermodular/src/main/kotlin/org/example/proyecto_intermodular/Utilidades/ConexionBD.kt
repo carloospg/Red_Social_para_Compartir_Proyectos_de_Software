@@ -3,7 +3,7 @@ package org.example.proyecto_intermodular.Utilidades
 import java.sql.*
 
 class ConexionBD {
-    val url = "jdbc:mysql://localhost/proyecto"
+    val url = "jdbc:mysql://localhost/codice"
     val user = "root"
     val password = ""
     var conn: Connection? = null

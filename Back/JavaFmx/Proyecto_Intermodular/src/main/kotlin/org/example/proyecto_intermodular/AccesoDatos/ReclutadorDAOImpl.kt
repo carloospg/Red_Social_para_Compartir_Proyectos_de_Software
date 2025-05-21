@@ -22,7 +22,9 @@ class ReclutadorDAOImpl:ReclutadorDAO {
                 rs.getString("correo_electronico"),
                 rs.getInt("telefono"),
                 rs.getString("contrasenia"),
-                rs.getInt("fecha_alta")
+                rs.getInt("fecha_alta"),
+                rs.getString("especialidad"),
+                rs.getString("github")
             )
             reclutados.add(reclutado)
         }
