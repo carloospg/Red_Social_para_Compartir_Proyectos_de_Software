@@ -1,6 +1,5 @@
 package org.example.proyecto_intermodular.AccesoDatos
 
-import org.example.proyecto_intermodular.Utilidades.ConexionDB
 import org.example.proyecto_intermodular.AccesoDatos.UsuarioDAO
 import org.example.proyecto_intermodular.Negocio.Usuario
 import org.example.proyecto_intermodular.Utilidades.ConexionBD
