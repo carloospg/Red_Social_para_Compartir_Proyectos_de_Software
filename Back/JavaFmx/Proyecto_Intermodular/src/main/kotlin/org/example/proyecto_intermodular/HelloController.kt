@@ -38,7 +38,7 @@ class HelloController {
     @FXML
     fun onBtUsuarios(event: ActionEvent){
         try {
-            val loader = FXMLLoader(UsuariosController::class.java.getResource("/com/example/Proyecto_Intermodular/usuarios-view.fxml"))
+            val loader = FXMLLoader(UsuariosController::class.java.getResource("/org/example/proyecto_intermodular/usuarios-view.fxml"))
             val root: Parent = loader.load()
             val stage = Stage()
             stage.scene = Scene(root)
