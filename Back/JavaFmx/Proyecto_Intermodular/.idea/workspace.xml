@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1353bfea-1543-4083-984f-2f230a7b8c1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/proyecto_intermodular/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/proyecto_intermodular/proyectos-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/proyecto_intermodular/reclutador-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/proyecto_intermodular/usuarios-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-    </list>
+    <list default="true" id="1353bfea-1543-4083-984f-2f230a7b8c1c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,21 +52,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Kotlin.HelloApplicationKt.executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature/SP3/aplicacionEscritorio",
-    "jdk.selected.JAVA_MODULE": "openjdk-23",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Marta/Desktop/Instituto/1DAW/Programación/BBDD/jar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Kotlin.HelloApplicationKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/SP3/aplicacionEscritorio&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-23&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Marta/Desktop/Instituto/1DAW/Programación/BBDD/jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="org.example.proyecto_intermodular" />
@@ -182,7 +173,7 @@
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/src/main/kotlin/org/example/proyecto_intermodular/Negocio/Usuario.kt</url>
           <line>2</line>
-          <properties class="org.example.proyecto_intermodular.Negocio.Usuario" method="&lt;init&gt;">
+          <properties class="org.example.proyecto_intermodular.Negocio.Usuario">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
