@@ -64,7 +64,7 @@ class HelloController {
     @FXML //david//
     fun onBtProyectos (event: ActionEvent) {
         try {
-            val loader = FXMLLoader(javaClass.getResource("/vistas/proyectos-view.fxml"))
+            val loader = FXMLLoader(javaClass.getResource("/org/example/proyecto_intermodular/proyectos-view.fxml"))
             val root: Parent = loader.load()
             val stage = Stage()
             stage.scene = Scene(root)

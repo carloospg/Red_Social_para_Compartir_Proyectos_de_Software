@@ -12,6 +12,7 @@
          <Menu text="Seleccione la operación">
             <MenuItem fx:id="menuItemUsuario" onAction="#onBtUsuarios" text="Usuarios" />
             <MenuItem fx:id="menuItemReclutador" onAction="#onBtReclutador" text="Visualizar reclutamientos de la app" />
+            <MenuItem fx:id="menuItemProyecto" onAction="#onBtProyectos" text="Proyectos" />
          </Menu>
       </menus>
    </MenuBar>

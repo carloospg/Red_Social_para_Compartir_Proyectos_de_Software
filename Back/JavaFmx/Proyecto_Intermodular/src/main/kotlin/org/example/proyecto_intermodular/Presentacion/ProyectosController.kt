@@ -1,4 +1,4 @@
-package org.example.proyecto_intermodular.controladores
+package org.example.proyecto_intermodular.Presentacion
 
 import javafx.fxml.FXML
 import javafx.scene.control.TableView

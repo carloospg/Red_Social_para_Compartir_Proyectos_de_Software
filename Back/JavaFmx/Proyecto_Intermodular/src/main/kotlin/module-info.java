@@ -9,6 +9,7 @@ module org.example.proyecto_intermodular {
     exports org.example.proyecto_intermodular;
 
 
+
     opens org.example.proyecto_intermodular.Presentacion to javafx.fxml;
     exports org.example.proyecto_intermodular.Presentacion;
 }
