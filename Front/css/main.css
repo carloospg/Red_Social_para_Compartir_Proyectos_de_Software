@@ -1,27 +1,21 @@
+/* Reset y base */
 body, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Menú */
 .menu {
-    background-color:black;
+    background-color: black;
     border-bottom: 2px solid #1e1e1d;
-    position: absolute;
-    width: 100%; 
-    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.1);
     position: sticky;
-    z-index:3;
-   
-}
-
-.imagenarriba{
-    position: relative;
-    left: 0%;
-    margin-top: 0px;
-    height:250px;
-    width:100%;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .menu ul {
@@ -30,7 +24,7 @@ body, html {
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content:left;
+    justify-content: flex-start;
 }
 
 .menu li {
@@ -40,24 +34,23 @@ body, html {
 .menu ul li a {
     text-decoration: none;
     color: white;
-    font-family: 'Arial', sans-serif;
     font-size: 16px;
     padding: 10px 15px;
-    transition: all 0.3s ease-in-out;
     border-radius: 5px;
+    transition: all 0.3s ease-in-out;
 }
 
 .menu ul li a:hover {
-    text-decoration: none;
-    background-color:white;
-    color:black;
+    background-color: white;
+    color: black;
     box-shadow: 0 14px 10px rgba(0, 0, 0, 0.1);
 }
 
-.menu img{
-    margin-top:10px;
+.menu img {
+    margin-top: 10px;
 }
 
+/* Encabezado */
 .encabezadobody {
     background: linear-gradient(135deg, #0077cc, #00b4d8);
     padding: 3rem 2rem;
@@ -67,13 +60,11 @@ body, html {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
     color: white;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .encabezadobody h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    font-weight: 600;
 }
 
 .encabezadobody p {
@@ -81,72 +72,14 @@ body, html {
     margin: 0;
 }
 
-
-
-footer {
-    background-color: black;
-    color:white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 300px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-footer a {
-    color: black;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-
-form {
-    margin-left:40% ;
-  background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  width: 300px;
-}
-label {
-  display: block;
-  margin-top: 10px;
-}
-input, select, textarea {
-  width: 100%;
-  padding: 8px;
-  margin-top: 5px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-}
-button {
-  background-color: #007BFF;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  width: 100%;
-  margin-top: 15px;
-}
-button:hover {
-  background-color: #0056b3;
-}
+/* Sección descripción */
 .descripcion {
     background-color: #f9f9f9;
     padding: 2rem;
-    margin: 60px;
-    margin-left:100px;
-    padding-bottom:100px;
-    max-width: 1000px; 
+    margin: 60px auto;
+    max-width: 1000px;
     border-radius: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #333;
     line-height: 1.6;
     text-align: center;
@@ -160,23 +93,145 @@ button:hover {
 
 .descripcion p {
     font-size: 1.1rem;
-    margin: 0;
 }
 
+/* Proyectos */
+.proyectos {
+    padding: 4rem 2rem;
+    background-color: #f0f4f8;
+    text-align: center;
+}
+
+.proyectos h2 {
+    font-size: 2.5rem;
+    color: #0077cc;
+    margin-bottom: 2rem;
+}
+
+.contenedor-proyectos,
+.lista-proyectos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tarjeta-proyecto {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 280px;
+    text-align: center;
+}
+
+.tarjeta-proyecto:hover {
+    transform: translateY(-5px);
+}
+
+.tarjeta-proyecto h3 {
+    font-size: 1.2rem;
+    color: #0077cc;
+    margin-bottom: 0.5rem;
+}
+
+.tarjeta-proyecto p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.tarjeta-proyecto a {
+    text-decoration: none;
+    background-color: #007BFF;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.tarjeta-proyecto a:hover {
+    background-color: #0056b3;
+}
+
+/* Formulario */
+form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 4rem auto;
+}
+
+form h2 {
+    text-align: center;
+    color: #0077cc;
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.pregunta-login {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+.pregunta-login a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.pregunta-login a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
 .footer {
     background-color: #1e1e1e;
     color: #f1f1f1;
     text-align: center;
     padding: 2rem 1rem;
-    margin-top: 4rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.95rem;
     box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    margin-top: 4rem;
 }
 
 .footer p {
     margin: 0.3rem 0;
 }
-
