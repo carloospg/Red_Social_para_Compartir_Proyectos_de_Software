@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<VBox xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.example.proyecto_intermodular.Presentacion.ProyectosController">
+    <TableView fx:id="tablaProyectos">
+        <columns>
+            <TableColumn text="ID" prefWidth="50">
+                <cellValueFactory><PropertyValueFactory property="idProyecto"/></cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Nombre" prefWidth="200">
+                <cellValueFactory><PropertyValueFactory property="nombre"/></cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Descripción" prefWidth="300">
+                <cellValueFactory><PropertyValueFactory property="descripcion"/></cellValueFactory>
+            </TableColumn>
+        </columns>
+    </TableView>
+</VBox>

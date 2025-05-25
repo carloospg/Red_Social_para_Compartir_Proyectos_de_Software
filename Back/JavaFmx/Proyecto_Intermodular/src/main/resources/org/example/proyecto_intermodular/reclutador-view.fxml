@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="576.0" prefWidth="418.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.proyecto_intermodular.Presentacion.ReclutadorController">
+
+    <ComboBox fx:id="cbReclutadores" layoutX="22.0" layoutY="122.0" prefWidth="300" promptText="Reclutador" />
+
+    <ListView fx:id="listaReclutados" layoutX="20.0" layoutY="210.0" prefHeight="300" prefWidth="377.0" />
+   <Label layoutX="20.0" layoutY="28.0" text="Reclutamientos">
+      <font>
+         <Font name="Yu Gothic Bold" size="18.0" />
+      </font>
+   </Label>
+   <Label layoutX="20.0" layoutY="175.0" text="Desarrolladores reclutados:">
+      <font>
+         <Font name="Yu Gothic Regular" size="14.0" />
+      </font>
+   </Label>
+   <Button layoutX="182.0" layoutY="527.0" mnemonicParsing="false" onAction="#onVolver" text="Volver">
+      <font>
+         <Font size="13.0" />
+      </font></Button>
+   <Label layoutX="22.0" layoutY="93.0" text="Escoja al reclutador para visualizar sus reclutamientos:">
+      <font>
+         <Font name="Yu Gothic Medium" size="11.0" />
+      </font>
+   </Label>
+
+</AnchorPane>
