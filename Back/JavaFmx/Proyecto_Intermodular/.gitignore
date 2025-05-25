@@ -36,3 +36,7 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Incluir jars personalizados
+!lib/
+!lib/*.jar
