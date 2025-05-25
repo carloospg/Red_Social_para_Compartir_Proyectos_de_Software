@@ -18,9 +18,9 @@ Este proyecto consiste en una página web y una aplicación de escritorio llamad
 
 ## Estructura del proyecto
 
-- `/web`: Código fuente del frontend (HTML y CSS).  
-- `/backend`: Código fuente de la aplicación Kotlin.  
-- `/database`: Scripts y definiciones para la base de datos Oracle.
+- `/Front`: Código fuente del frontend (HTML y CSS).  
+- `/Back/JavaFmx`: Código fuente de la aplicación Kotlin.  
+- `/Back/BBDD`: Scripts y definiciones para la base de datos Oracle.
 
 ## Cómo ejecutar
 
