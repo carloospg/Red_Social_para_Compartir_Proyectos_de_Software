@@ -5,7 +5,7 @@ Este proyecto consiste en una página web y una aplicación de escritorio llamad
 ## Tecnologías usadas
 
 - **Frontend:** Página web creada con **HTML** y **CSS** para la interfaz básica.  
-- **Backend:** Aplicación en **Java/Kotlin** con JavaFX para las pantallas de usuarios, proyectos y reclutamientos.  
+- **Backend:** Aplicación en **Kotlin** con JavaFX para las pantallas de usuarios, proyectos y reclutamientos.  
 - **Base de datos:** Oracle para la gestión de datos.
 
 ## Funcionalidades
